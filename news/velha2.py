@@ -114,5 +114,4 @@ while True:
         
 
     estrutura()
-
-   
+    #nice
