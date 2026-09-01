@@ -15,10 +15,10 @@ class Estabelecimento:
         self.quantidade += quantidade
         print(f'Quantidade atualizada para {self.quantidade}')
 
-    def adionar_patrocinadores(self, funcionario):
-
+    def adionar_patrocinadores(self):
+        funcionario = input("Digite o nome do patrocinador: ")
         if funcionario not in self.patrocinadores:
-            funcionario = input("Digite o nome do patrocinador: ")
+            
             self.patrocinadores.append(funcionario)
 
         else:
@@ -34,7 +34,11 @@ oficinaaladin = Estabelecimento('oficina_aladin','matureia-pb',3,'oficina')
 
 
 
+
+
+'''area de testes '''
 Supermercadosouza.adionar_patrocinadores()
+postonossasenhora.adionar_patrocinadores()
 
 print(Supermercadosouza.quantidade)
 aumentos = Supermercadosouza.aumentos(100)
@@ -44,3 +48,5 @@ print(oficinaaladin.quantidade)
 print(postonossasenhora.patrocinadores)
 
 print(mixmateus.quantidade)
+
+'''area de testes'''
