@@ -16,7 +16,7 @@ pc_da_faculdade = Pcgamer('pc_do_lab',8,'ryzen 5','gtx 550 ti')
 
 
 
-pc_de_casa = Pcgamer(input(''),int(input("")),input(""),input(""))
+pc_de_casa = Pcgamer(input('digite o nome: '),int(input("quantos gb de memoria ram? ")),input("qual processador ele usa? "),input("qual placa de video ele usa? "))
 
 
 
